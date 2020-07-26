@@ -30,10 +30,8 @@ class SakesController < ApplicationController
     respond_to do |format|
       if @sake.save
         format.html { redirect_to @sake, notice: "Create successfully." }
-        format.json { render :show, status: :created, location: @sake }
       else
         format.html { render :new }
-        format.json { render json: @sake.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -44,10 +42,8 @@ class SakesController < ApplicationController
     respond_to do |format|
       if @sake.update(sake_params)
         format.html { redirect_to @sake, notice: "Update successfully." }
-        format.json { render :show, status: :ok, location: @sake }
       else
         format.html { render :edit }
-        format.json { render json: @sake.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -58,7 +54,6 @@ class SakesController < ApplicationController
     @sake.destroy
     respond_to do |format|
       format.html { redirect_to sakes_url, notice: "Destroy successfully." }
-      format.json { head :no_content }
     end
   end
 
