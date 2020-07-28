@@ -3,65 +3,73 @@
 one:
   name: MyString
   kura: MyString
-  photo: 
-  touroku: 2020-05-10 16:36:27
-  bindume: 2020-05-10 16:36:27
-  by: 2020-05-10 16:36:27
-  product_of: MyString
-  taste_int: 1
-  aroma_int: 1
-  sake_metre_value: 1
-  acidity: 1
-  aroma_text: MyText
+  photo:
+  bindume_date: 2020-05-10
+  brew_year: 2020-05-10
+  todofuken: MyString
+  taste_value: 1
+  aroma_value: 1
+  nihonshudo: 1
+  sando: 1
+  aroma_impression: MyText
   color: MyString
-  taste_text: MyText
-  is_namadume: false
-  is_namacho: false
+  taste_impression: MyText
   nigori: MyString
   awa: MyString
-  tokutei_meisho: MyString
+  tokutei_meisho: 1
   genryoumai: MyString
   kakemai: MyString
-  koubo: MyString
+  kobo: MyString
   alcohol: 1
-  amino_acid: 1
-  aged: MyString
-  is_genshu: false
+  aminosando: 1
+  season: MyString
+  warimizu: 1
   moto: MyString
-  rice_polishing: 1
+  seimai_buai: 1
   roka: MyString
   shibori: MyString
-  memo: MyText
+  note: MyText
+  bottle_level: 1
+  hiire: 1
+  price: 1
+  size: 1
+  name: MyString
+  kura: MyString
+  photo:
 
 two:
   name: MyString
   kura: MyString
-  photo: 
-  touroku: 2020-05-10 16:36:27
-  bindume: 2020-05-10 16:36:27
-  by: 2020-05-10 16:36:27
-  product_of: MyString
-  taste_int: 1
-  aroma_int: 1
-  sake_metre_value: 1
-  acidity: 1
-  aroma_text: MyText
+  photo:
+  bindume_date: 2020-05-10
+  brew_year: 2020-05-10
+  todofuken: MyString
+  taste_value: 1
+  aroma_value: 1
+  nihonshudo: 1
+  sando: 1
+  aroma_impression: MyText
   color: MyString
-  taste_text: MyText
-  is_namadume: false
-  is_namacho: false
+  taste_impression: MyText
   nigori: MyString
   awa: MyString
-  tokutei_meisho: MyString
+  tokutei_meisho: 1
   genryoumai: MyString
   kakemai: MyString
-  koubo: MyString
+  kobo: MyString
   alcohol: 1
-  amino_acid: 1
-  aged: MyString
-  is_genshu: false
+  aminosando: 1
+  season: MyString
+  warimizu: 1
   moto: MyString
-  rice_polishing: 1
+  seimai_buai: 1
   roka: MyString
   shibori: MyString
-  memo: MyText
+  note: MyText
+  bottle_level: 1
+  hiire: 1
+  price: 1
+  size: 1
+  name: MyString
+  kura: MyString
+  photo:
